@@ -2,6 +2,16 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
+  function greet() {
+    console.log("Hello world");
+  }
+
+  function addUser() {
+    console.log("User added!");
+  }
+
+  greet();
+  addUser();
   return (
     <div className="App">
       <header className="App-header">
